@@ -9,3 +9,6 @@
  5. Lambda
  6. EventBridge
  7. DynamoDB
+ 
+<br>
+[Extracting tweets and Saving into a S3 bucket] (nytimesTweetExtraction.ipynb)
