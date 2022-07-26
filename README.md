@@ -1,5 +1,5 @@
 # AWS-nytimes-TweetsAnalysis
-@nytimes tweets analysis on AWS <br>
+@nytimes tweets analysis on AWS using Sagemaker, S3, Lambda, EventBridge and Cloud9<br>
 
 ### AWS Tools:
  1. Sagemaker
