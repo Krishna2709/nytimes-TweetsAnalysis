@@ -1,6 +1,7 @@
 # AWS-nytimes-TweetsAnalysis
-@nytimes tweets analysis on AWS
-AWS Tools - 
+@nytimes tweets analysis on AWS <br>
+<br>
+### AWS Tools:
  1. Sagemaker
  2. EC2
  3. Cloud9
