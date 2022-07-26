@@ -1,6 +1,6 @@
 # AWS-nytimes-TweetsAnalysis
 @nytimes tweets analysis on AWS <br>
-<br>
+
 ### AWS Tools:
  1. Sagemaker
  2. EC2
@@ -10,5 +10,4 @@
  6. EventBridge
  7. DynamoDB
  
-<br>
-[Extracting tweets and Saving into a S3 bucket] (nytimesTweetExtraction.ipynb)
+Extracting and Saving tweets from @nytimes [nytimesTweetsExtraction](nytimesTweetExtraction.ipynb)
