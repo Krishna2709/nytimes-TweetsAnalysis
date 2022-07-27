@@ -25,5 +25,5 @@ Extracting and Saving tweets from @nytimes [nytimesTweetsExtraction](nytimesTwee
 1. [Tweepy](https://docs.tweepy.org/en/stable/index.html)
 2. [SQLite](https://docs.python.org/3/library/sqlite3.html)
 3. [AWS Sagemaker connection to S3 bucket](https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-ex-notebook.html)
-4. [Importing Modules into AWS Lambda](https://aws.amazon.com/premiumsupport/knowledge-center/lambda-import-module-error-python/)
+4. [Importing modules into AWS Lambda](https://aws.amazon.com/premiumsupport/knowledge-center/lambda-import-module-error-python/)
 5. [AWS S3 data into DynamoDB](https://aws-dojo.com/excercises/excercise39/)
