@@ -27,3 +27,9 @@ Extracting and Saving tweets from @nytimes [nytimesTweetsExtraction](nytimesTwee
 3. [AWS Sagemaker connection to S3 bucket](https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-ex-notebook.html)
 4. [Importing modules into AWS Lambda](https://aws.amazon.com/premiumsupport/knowledge-center/lambda-import-module-error-python/)
 5. [AWS S3 data into DynamoDB](https://aws-dojo.com/excercises/excercise39/)
+
+#### To Do
+1. TweetsPreprocessing - Define a class, apply remaining preprocessing techniques and save the preprocessed tweets into DynamoDB.
+2. Function to check the new tweets data entry, perform preprocessing and update the database.
+3. Tweets Analysis - Word Cloud, Stats...
+4. Tweets Categorization - Word Cloud, Stats...
