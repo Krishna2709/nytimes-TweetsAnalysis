@@ -38,7 +38,7 @@
  7. DynamoDB
 ```
 
-## Resources:
+## :briefcase: Resources
 1. [Tweepy](https://docs.tweepy.org/en/stable/index.html)
 2. [Prefect](https://docs.prefect.io/)
 3. [SQLite](https://docs.python.org/3/library/sqlite3.html)
