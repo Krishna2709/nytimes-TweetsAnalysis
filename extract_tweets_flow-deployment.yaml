@@ -1,0 +1,50 @@
+###
+### A complete description of a Prefect Deployment for flow 'extract-tweets-flow'
+###
+name: Tweets Extraction using Tweepy every 3 days - Parameterized!
+description: Prefect Deployment for executing a flow run to extract tweets for every 3 days.
+version: 43eff13725b99b80000ce1f9f7262cce
+# The work queue that will handle this deployment's runs
+work_queue_name: tweets_extraction_queue
+work_pool_name: tweets_extraction_pool
+tags: []
+parameters: {}
+schedule: null
+is_schedule_active: null
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: extract-tweets-flow
+manifest_path: null
+storage: null
+path: C:\Users\krish\Documents\Projects\TwitterAnalytics
+entrypoint: tweets_extraction_using_prefect.py:extract_tweets_flow
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties:
+    token:
+      title: token
+      position: 0
+      type: string
+    tweeter_handle:
+      title: tweeter_handle
+      position: 1
+      type: string
+  required:
+  - token
+  - tweeter_handle
+  definitions: null
+timestamp: '2023-03-29T13:53:01.944664+00:00'
