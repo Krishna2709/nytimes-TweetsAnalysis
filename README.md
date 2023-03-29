@@ -1,6 +1,23 @@
-# AWS-nytimes-TweetsAnalysis
-#### @nytimes tweets analysis on AWS using <br>
-Extracting and Saving tweets from @nytimes [nytimesTweetsExtraction](nytimesTweetExtraction.ipynb)
+# :one: Analyzing tweets from @nytimes using Prefect :toolbox:
+#### @nytimes tweets analysis :chart_with_upwards_trend:
+```
+1. Authenticating using Twitter API tokens
+2. Extracting tweet data id, datetime of created tweet, tweet text
+3. Saving the extracted data into a csv file
+4. Automating the above process using Prefect - extracting 100 most recent tweets every 3 days
+```
+#### To-do :hammer_and_wrench:
+```
+1. Dockerize the application
+2. ETL operations - Data Pre-processing
+3. Exploratory Data Analysis
+4. Analytics dashboard using D3.js
+5. Tweets Classification model and Updating the dashboard
+6. Dockerizing the whole application
+```
+
+# :two: Analyzing tweets using AWS
+#### @nytimes tweets analysis on AWS :chart_with_upwards_trend:
 ```
 1. Authenticating using Twitter API tokens
 2. Extracting tweet data id, datetime of created tweet, tweet text
@@ -10,7 +27,7 @@ Extracting and Saving tweets from @nytimes [nytimesTweetsExtraction](nytimesTwee
 6. Saving the tweets into a DynamoDB table for further analysis
 ```
 
-### AWS Tools:
+#### AWS Tools :hammer_and_pick:
 ```
  1. Sagemaker
  2. EC2
@@ -21,15 +38,10 @@ Extracting and Saving tweets from @nytimes [nytimesTweetsExtraction](nytimesTwee
  7. DynamoDB
 ```
 
-### Resources:
+## Resources:
 1. [Tweepy](https://docs.tweepy.org/en/stable/index.html)
-2. [SQLite](https://docs.python.org/3/library/sqlite3.html)
-3. [AWS Sagemaker connection to S3 bucket](https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-ex-notebook.html)
-4. [Importing modules into AWS Lambda](https://aws.amazon.com/premiumsupport/knowledge-center/lambda-import-module-error-python/)
-5. [AWS S3 data into DynamoDB](https://aws-dojo.com/excercises/excercise39/)
-
-#### To Do
-1. TweetsPreprocessing - Define a class, apply remaining preprocessing techniques and save the preprocessed tweets into DynamoDB.
-2. Function to check the new tweets data entry, perform preprocessing and update the database.
-3. Tweets Analysis - Word Cloud, Stats...
-4. Tweets Categorization - Word Cloud, Stats...
+2. [Prefect](https://docs.prefect.io/)
+3. [SQLite](https://docs.python.org/3/library/sqlite3.html)
+4. [AWS Sagemaker connection to S3 bucket](https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-ex-notebook.html)
+5. [Importing modules into AWS Lambda](https://aws.amazon.com/premiumsupport/knowledge-center/lambda-import-module-error-python/)
+6. [AWS S3 data into DynamoDB](https://aws-dojo.com/excercises/excercise39/)
